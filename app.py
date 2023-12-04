@@ -8,7 +8,7 @@ def init():
   
 @app.route('/')
 def index():
-    return flask.render_template('./index.html')
+    return flask.render_template('index.html')
 
 @app.route('/predict', methods = ['POST'])
 def predict():
