@@ -4,8 +4,6 @@
 ### Table of Contents
 -[Introduction](#introduction)
 
--[Related Works](#related-works)
-
 -[Data](#data)
 
 -[Methods/Models](#methods/models)
@@ -17,15 +15,24 @@
 -[References](#references)
 
 ### Introduction
-
-### Related Words
+This project uses machine learning and artificial intelligence methods in order to predict the estimated salary based on various factors.
 
 ### Data
+The data used for this project is titled Salary by Job Title and Country from Kaggle. The link to this dataset is referenced below.
+The data uses various features as follows:
+  Age
+  Gender
+  Education Level
+  Job Title
+  
 
 ### Method/Models
 
 ### Evaluation
 
+### Conclusion
+
+### References
 
 
 reference link to dataset: https://www.kaggle.com/datasets/amirmahdiabbootalebi/salary-by-job-title-and-country
