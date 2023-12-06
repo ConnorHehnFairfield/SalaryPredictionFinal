@@ -19,11 +19,11 @@ This project uses machine learning and artificial intelligence methods in order 
 
 ### Data
 The data used for this project is titled Salary by Job Title and Country from Kaggle. The link to this dataset is referenced below.
-The data uses various features as follows:
--Age
--Gender
--Education Level
--Job Title
+The data uses various features as follows: <br>
+-Age <br>
+-Gender <br>
+-Education Level <br>
+-Job Title <br>
 
 
 ### Method/Models
