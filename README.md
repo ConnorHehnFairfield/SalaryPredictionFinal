@@ -53,12 +53,12 @@ Random forest regression hsa a lower Mean Absolute Error (MAE) and a lower Mean 
 In conclusion, the model choosen to predict salary based on the fields from the dataset was the Random Forest Regression model. The model also provides feature importance
 information. The feature importance for this model are as follows: <br>
 Age: 5.97 % <br>
-Education Level: 02.75 % <br>
+Education Level: 2.75 % <br>
 Years of Experience: 74.97 <br>
-Senior: 00.61 <br>
-Gender: 00.63 <br>
+Senior: 0.61 <br>
+Gender: 0.63 <br>
 Job Title: 14.29 <br>
-Country: 00.35 <br>
-Race: 00.44 <br>
+Country: 0.35 <br>
+Race: 0.44 <br>
 ### References
 reference link to dataset: https://www.kaggle.com/datasets/amirmahdiabbootalebi/salary-by-job-title-and-country
