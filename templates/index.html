@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>ur app..</title>
+  <title>Salary Predictor</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css') }}">
 </head>
 
 <body>
     <form action="/predict" method="POST">
       <label for="age">Age</label>
-      <input type="number" id="age" name="age" min="16" max="100">
+      <input type="number" id="age" name="age" min="15" max="100">
       <br>
 
       <label for="gender">Gender</label>
       <select name="gender" id="gender">
-        <option value="male">Male</option>
-        <option value="female">Female</option>
-      </select> 
+        <option value="1">Male</option>
+        <option value="0">Female</option>
+      </select>
       <br>
 
       <label for="education">Education Level</label>
@@ -196,6 +197,9 @@
         <option value="0">No</option>
         <option value="1">Yes</option>
       </select>
+      <br>
+
+      <input type="submit" value="submit">
 
 
     </form>

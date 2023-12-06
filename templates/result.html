@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>ur app..</title>
+  <title>Salary Predictor</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css') }}">
 </head>
 
 <body>
-    <h1>Hello from results</h1>
+  <header>
+    <h1>Salary Predictor</h1>
+  </header>
+
+  <main>
+    <h2>Your Predicted Salary</h2>
+    <br>
+    <h1>${{ prediction }}</h1>
+  </main>
 </body>
 </html>
